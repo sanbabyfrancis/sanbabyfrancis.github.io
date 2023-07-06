@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on sanbabyfrancis</title>
+    <link>https://sanbabyfrancis.github.io/tags/</link>
+    <description>Recent content in Tags on sanbabyfrancis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© sanbabyfrancis</copyright>
+    <lastBuildDate>Fri, 11 Sep 2020 00:15:37 +0530</lastBuildDate><atom:link href="https://sanbabyfrancis.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>musings</title>
+      <link>https://sanbabyfrancis.github.io/tags/musings/</link>
+      <pubDate>Fri, 11 Sep 2020 00:15:37 +0530</pubDate>
+      
+      <guid>https://sanbabyfrancis.github.io/tags/musings/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
