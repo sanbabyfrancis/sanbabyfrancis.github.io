@@ -58,7 +58,7 @@
 
 		<section class="body">
 			<p>A Computer Algebra System is a piece of software that would help you compute various problems that you encounter in Mathematics or Engineering. You could think of it as an advanced scientific calculator that could perform integration, solve your differential equations and much more. However, CAS can never be a substitute for a mathematician (It only does the boring stuff. Contrary to the popular belief, math has got little to do with computation).</p>
-<p>Throughout the blog, I’ll be discussing about <a href="http://maxima.sourceforge.net/">Maxima</a> – an open source, general purpose CAS which is widely used in academia for symbolic computations. Unlike other tools, Maxima is easy to use and light in weight. <a href="https://www.wolfram.com/mathematica/">Mathematica</a> (a prorietary software), <a href="https://www.sagemath.org/">SageMath</a>, <a href="https://www.sympy.org/en/index.html">SymPy</a> (a Python package with CAS capabilities) are other available options.</p>
+<p>Throughout the blog, I’ll be discussing about <a href="http://maxima.sourceforge.net/">Maxima</a> – an open source, general purpose CAS which is widely used in academia for symbolic computations. Unlike other tools, Maxima is easy to use and light in weight. <a href="https://www.wolfram.com/mathematica/">Mathematica</a> (a proprietary software), <a href="https://www.sagemath.org/">SageMath</a>, <a href="https://www.sympy.org/en/index.html">SymPy</a> (a Python package with CAS capabilities) are other available options.</p>
 <p>Wait! Do I sound boring? Then let’s get started. We’ll try to solve a few problems (that you’d find in a typical high school math curriculum) using Maxima. I will be using a Linux operating system to run the program (Wait a minute! Linux is worth learning. I might write about the Linux commandline in another blog!). Don’t worry, you could run Maxima on Windows or Mac too.</p>
 <p>Before I begin let me tell you something, I do not intend to teach you Maxima (Hey, I came across the tool the other day and I am not an expert at it 😅). My aim is pretty simple – I want to introduce you to various open source projects and Maxima is indeed a great tool to begin with.</p>
 <p>So let’s begin.</p>
@@ -85,7 +85,7 @@ Suppose we have the expression, (1 – sin(x)^2). Then the following input:</p>
 </span></span></code></pre></div><p>You will get the output as:</p>
 <p><img src="images/calculus-demo.png" alt="calculus-demo"></p>
 <h2 id="plotting-functions">Plotting Functions</h2>
-<p>The command <code>plot2d()</code> produces a 2-dimensional plot of a given function. For example, the following input plots a function, f(x) = sin(x) from x = 0 to 5π:</p>
+<p>The command <code>plot2d()</code> can produce a 2-dimensional plot of any given function. For example, the following input plots a function, f(x) = sin(x) from x = 0 to 5π:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>plot2d(sin(x), [x, 0, 5*%pi]);
 </span></span></code></pre></div><p><img src="images/2d-plot.png" alt="2d-plot"></p>
 <p>We could also generate 3-dimensional plots using the command <code>plot3d()</code>. Let us plot the function, f(x, y) = x + y in 3 axes. Let x and y ranges from 0 to 10.</p>

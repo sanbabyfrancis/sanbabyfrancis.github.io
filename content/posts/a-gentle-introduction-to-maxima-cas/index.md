@@ -7,7 +7,7 @@ tags: ["opensource", "tool"]
 
 A Computer Algebra System is a piece of software that would help you compute various problems that you encounter in Mathematics or Engineering. You could think of it as an advanced scientific calculator that could perform integration, solve your differential equations and much more. However, CAS can never be a substitute for a mathematician (It only does the boring stuff. Contrary to the popular belief, math has got little to do with computation).
 
-Throughout the blog, I’ll be discussing about [Maxima](http://maxima.sourceforge.net/) – an open source, general purpose CAS which is widely used in academia for symbolic computations. Unlike other tools, Maxima is easy to use and light in weight. [Mathematica](https://www.wolfram.com/mathematica/) (a prorietary software), [SageMath](https://www.sagemath.org/), [SymPy](https://www.sympy.org/en/index.html) (a Python package with CAS capabilities) are other available options.
+Throughout the blog, I’ll be discussing about [Maxima](http://maxima.sourceforge.net/) – an open source, general purpose CAS which is widely used in academia for symbolic computations. Unlike other tools, Maxima is easy to use and light in weight. [Mathematica](https://www.wolfram.com/mathematica/) (a proprietary software), [SageMath](https://www.sagemath.org/), [SymPy](https://www.sympy.org/en/index.html) (a Python package with CAS capabilities) are other available options.
 
 Wait! Do I sound boring? Then let’s get started. We’ll try to solve a few problems (that you’d find in a typical high school math curriculum) using Maxima. I will be using a Linux operating system to run the program (Wait a minute! Linux is worth learning. I might write about the Linux commandline in another blog!). Don’t worry, you could run Maxima on Windows or Mac too.
 
@@ -67,7 +67,7 @@ You will get the output as:
 
 ## Plotting Functions
 
-The command `plot2d()` produces a 2-dimensional plot of a given function. For example, the following input plots a function, f(x) = sin(x) from x = 0 to 5π:
+The command `plot2d()` can produce a 2-dimensional plot of any given function. For example, the following input plots a function, f(x) = sin(x) from x = 0 to 5π:
 
 ```
 plot2d(sin(x), [x, 0, 5*%pi]);
