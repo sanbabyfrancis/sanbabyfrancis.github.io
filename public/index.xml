@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© sanbabyfrancis</copyright>
-    <lastBuildDate>Fri, 11 Sep 2020 00:15:37 +0530</lastBuildDate><atom:link href="https://sanbabyfrancis.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Sep 2020 15:15:24 +0530</lastBuildDate><atom:link href="https://sanbabyfrancis.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Gentle Introduction to Maxima (CAS)</title>
+      <link>https://sanbabyfrancis.github.io/posts/a-gentle-introduction-to-maxima-cas/</link>
+      <pubDate>Tue, 15 Sep 2020 15:15:24 +0530</pubDate>
+      
+      <guid>https://sanbabyfrancis.github.io/posts/a-gentle-introduction-to-maxima-cas/</guid>
+      <description>A Computer Algebra System is a piece of software that would help you compute various problems that you encounter in Mathematics or Engineering. You could think of it as an advanced scientific calculator that could perform integration, solve your differential equations and much more. However, CAS can never be a substitute for a mathematician (It only does the boring stuff. Contrary to the popular belief, math has got little to do with computation).</description>
+    </item>
+    
     <item>
       <title>On Friendship, Irritation and Life!</title>
       <link>https://sanbabyfrancis.github.io/posts/on-friendship-irritation-and-life/</link>
@@ -25,7 +34,7 @@ How irritating would it be to get messages all day long (why wouldn’t the othe
       
       <guid>https://sanbabyfrancis.github.io/posts/a-new-beginning/</guid>
       <description>Ah, my first blog!
-This absurd idea of mine – of writing a blog, has been haunting me since my school days. But several factors kept me away from writing one. This included my ardent desire to remain unnoticed (call it lack of confidence, shyness or whatever but I call it humility 😅), lack of certainty (of literally everything! What am I supposed to write? Am I capable of convincing others through my blogs?</description>
+This absurd idea of mine – of writing a blog, has been haunting me since my school days. But several factors kept me away from writing one. This included my ardent desire to remain unnoticed (call it lack of confidence, shyness or whatever 😅), lack of certainty (of literally everything! What am I supposed to write? Am I capable of convincing others through my blogs? But whom should I write to?</description>
     </item>
     
   </channel>

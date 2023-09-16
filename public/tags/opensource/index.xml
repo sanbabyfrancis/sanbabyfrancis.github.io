@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>opensource on sanbabyfrancis</title>
+    <link>https://sanbabyfrancis.github.io/tags/opensource/</link>
+    <description>Recent content in opensource on sanbabyfrancis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© sanbabyfrancis</copyright>
+    <lastBuildDate>Tue, 15 Sep 2020 15:15:24 +0530</lastBuildDate><atom:link href="https://sanbabyfrancis.github.io/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Gentle Introduction to Maxima (CAS)</title>
+      <link>https://sanbabyfrancis.github.io/posts/a-gentle-introduction-to-maxima-cas/</link>
+      <pubDate>Tue, 15 Sep 2020 15:15:24 +0530</pubDate>
+      
+      <guid>https://sanbabyfrancis.github.io/posts/a-gentle-introduction-to-maxima-cas/</guid>
+      <description>A Computer Algebra System is a piece of software that would help you compute various problems that you encounter in Mathematics or Engineering. You could think of it as an advanced scientific calculator that could perform integration, solve your differential equations and much more. However, CAS can never be a substitute for a mathematician (It only does the boring stuff. Contrary to the popular belief, math has got little to do with computation).</description>
+    </item>
+    
+  </channel>
+</rss>
