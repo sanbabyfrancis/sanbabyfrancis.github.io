@@ -1,13 +1,14 @@
 <footer>
+  <div class="footer-info" style="border:2px solid; padding:5px; margin-right:10px; text-align:justify; color:#4a4b4b">
+    Loves <b>COMPUTER SCIENCE</b> (I have a degree in computer science), <b>OPENSOURCE</b> (obviously!), <b>PROGRAMMING</b>
+    (this explains my choice of using a monospace font for the website), <b>ART</b> (of all kinds), <b>PHILOSOPHY</b>
+    (seriously?) and.. and whatnot (sighs) - sanbabyfrancis
+  </div>
   <div style="display:flex">
     {{- range $index, $key := .Site.Params.Social -}}
     <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
-    <a class="border"></a>
+    <!-- <a class="border"></a> -->
     {{- end -}}
-  </div>
-  <div class="footer-info">
-    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
 {{ if not .Site.IsServer }}

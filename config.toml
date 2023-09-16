@@ -14,9 +14,13 @@ paginate=3 # articles per page
 [params]
 	mode="light" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	subtitle = "⭐ [through the looking glass](https://en.wikipedia.org/wiki/Through_the_Looking-Glass) (my musings on art, philosophy and computer science)"
+	subtitle = "⭐ [through the looking glass](https://en.wikipedia.org/wiki/Through_the_Looking-Glass) I see a world both familiar and different."
 # Social Tags
 
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/sanbabyfrancis"
 
 [[params.social]]
 name = "GitHub"

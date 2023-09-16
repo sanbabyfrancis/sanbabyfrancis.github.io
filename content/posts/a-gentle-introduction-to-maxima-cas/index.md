@@ -2,16 +2,16 @@
 title: "A Gentle Introduction to Maxima (CAS)"
 date: 2020-09-15T15:15:24+05:30
 draft: false
-tags: ["opensource", "tool"]
+tags: ["open-source", "tool"]
 ---
 
 A Computer Algebra System is a piece of software that would help you compute various problems that you encounter in Mathematics or Engineering. You could think of it as an advanced scientific calculator that could perform integration, solve your differential equations and much more. However, CAS can never be a substitute for a mathematician (It only does the boring stuff. Contrary to the popular belief, math has got little to do with computation).
 
-Throughout the blog, I’ll be discussing about [Maxima](http://maxima.sourceforge.net/) – an open source, general purpose CAS which is widely used in academia for symbolic computations. Unlike other tools, Maxima is easy to use and light in weight. [Mathematica](https://www.wolfram.com/mathematica/) (a proprietary software), [SageMath](https://www.sagemath.org/), [SymPy](https://www.sympy.org/en/index.html) (a Python package with CAS capabilities) are other available options.
+Throughout the blog, I’ll be discussing about [Maxima](http://maxima.sourceforge.net/) – an open-source, general-purpose CAS which is widely used in academia for symbolic computations. Unlike other tools, Maxima is easy to use and light in weight. [Mathematica](https://www.wolfram.com/mathematica/) (a proprietary software), [SageMath](https://www.sagemath.org/), [SymPy](https://www.sympy.org/en/index.html) (a Python package with CAS capabilities) are other available options.
 
 Wait! Do I sound boring? Then let’s get started. We’ll try to solve a few problems (that you’d find in a typical high school math curriculum) using Maxima. I will be using a Linux operating system to run the program (Wait a minute! Linux is worth learning. I might write about the Linux commandline in another blog!). Don’t worry, you could run Maxima on Windows or Mac too.
 
-Before I begin let me tell you something, I do not intend to teach you Maxima (Hey, I came across the tool the other day and I am not an expert at it 😅). My aim is pretty simple – I want to introduce you to various open source projects and Maxima is indeed a great tool to begin with.
+Before I begin let me tell you something, I do not intend to teach you Maxima (Hey, I came across the tool the other day and I am not an expert at it 😅). My aim is pretty simple – I want to introduce you to various open-source projects and Maxima is indeed a great tool to begin with.
 
 So let’s begin.
 
